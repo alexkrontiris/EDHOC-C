@@ -9,7 +9,9 @@ EDHOC supports authentication using pre-shared keys (PSK), raw public keys (RPK)
 
 ### Dependencies
 OpenSSL version 1.1.0 (includes X25519 elliptic curve) or newer
+
 libb64 (Base64 Encoding/Decoding Routines)
+
 libcbor (CBOR format implementation for C)
 
 ### Usage
@@ -25,4 +27,5 @@ $ ./edhoc-server
 
 ### TODO
 CoAP integration
+
 Certificate enrollment over EDHOC
