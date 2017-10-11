@@ -1,0 +1,6 @@
+[submodule "COSE-C"]
+	path = COSE-C
+	url = git@github.com:alexkrontiris/COSE-C.git
+[submodule "libcbor"]
+	path = libcbor
+	url = git@github.com:alexkrontiris/libcbor.git
