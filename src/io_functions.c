@@ -155,7 +155,7 @@ void *print_cbor_bytestring_to_stdout_hex(unsigned char *buffer, size_t length)
 int print_pkey_hr(EVP_PKEY *pkey)
 {
     BIO *b_out = BIO_new_fp(stdout, BIO_NOCLOSE);
-    printf("\nHuman readable format of Alice's PUBKEY:\n");
+    printf("\nHuman readable format of PUBKEY:\n");
     EVP_PKEY_print_public(b_out, pkey, 0, NULL);
 
     return 1;
