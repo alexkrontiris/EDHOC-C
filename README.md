@@ -30,3 +30,5 @@ $ ./edhoc-server
 CoAP integration
 
 Certificate enrollment over EDHOC
+
+Add documentation
